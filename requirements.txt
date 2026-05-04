@@ -1,0 +1,9 @@
+
+autopep8
+librosa
+numpy
+pandas
+matplotlib
+tensorflow-cpu
+ffmpeg-python
+
