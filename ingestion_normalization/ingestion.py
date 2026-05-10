@@ -37,7 +37,7 @@ def extract_audio_track(audio_path: str):
         '-i', audio_path,           # input audio file
         '-vn',                      # disable video
         '-acodec', 'pcm_s16le',     # set codec to PCM 16-bit
-        '-ar', '44100',             # set sampling rate (44100 Hz)
+        '-ar', '16000',             # set sampling rate (16000 Hz)
         '-ac', '1',                 # set channels (1 for )
         output_audio_file           # output file
     ]

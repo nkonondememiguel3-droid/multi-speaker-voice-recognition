@@ -1,9 +1,29 @@
 
 autopep8
+
 librosa
+soundfile
+scipy
+
 numpy
 pandas
+
 matplotlib
+seaborn
+
 tensorflow-cpu
+onnx
+onnxruntime
+
 ffmpeg-python
+tqdm
+pyyaml
+pytest
+black
+
+silero-vad
+webrtcvad-wheels
+speechbrain
+
+faiss-cpu
 
