@@ -1,5 +1,3 @@
-# ingestion_normalization/ingestion.py
-
 import os
 import csv
 import logging
@@ -154,8 +152,7 @@ def load_normalize(path: str) -> Optional[Tuple[np.ndarray, int, str]]:
         return None
 
     try:
-        audio_time_serie, sampling_rate = librosa.load(
-            converted_audio, sr=None)
+        audio_time_serie, sampling_rate = librosa.load(converted_audio, sr=None)
     except Exception as e:
         reason = f"librosa load failed: {e}"
         logger.error(f"'{path}': {reason}")

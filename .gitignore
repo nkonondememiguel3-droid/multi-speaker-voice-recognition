@@ -1,3 +1,12 @@
 venv/
 datasets/
-
+data/spectrograms/
+data/manifests/
+checkpoints/
+__pycache__/
+*.pyc
+*.npy
+*.wav
+*.flac
+result.txt
+*.log
